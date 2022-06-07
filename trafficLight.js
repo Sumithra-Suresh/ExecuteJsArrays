@@ -11,7 +11,7 @@ let i =0;
 
 function light(str){
   
-  window.setTimeout(()=>{
+  setTimeout(()=>{
     console.log(str);
     if(str !='finished')
       light(arr[++i]);
